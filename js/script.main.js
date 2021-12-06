@@ -56,31 +56,31 @@ form.addEventListener("submit", function(e) {
     escapeHtml(n + "1" + o.split("/")[1].trim() + l + "2TUR<<<<<<<<<<<2") +
     "<br><br>";
   (l = r
-    .replace(/–/gim, "G")
-    .replace(/‹/gim, "U")
-    .replace(/ﬁ/gim, "S")
-    .replace(/›/gim, "I")
-    .replace(/÷/gim, "O")
-    .replace(/«/gim, "C")
-    .replace(//gim, "g")
-    .replace(/¸/gim, "u")
-    .replace(/˛/gim, "s")
-    .replace(/˝/gim, "i")
-    .replace(/ˆ/gim, "o")
-    .replace(/Á/gim, "c")),
+    .replace(/√ê/gim, "G")
+    .replace(/√ú/gim, "U")
+    .replace(/√û/gim, "S")
+    .replace(/√ù/gim, "I")
+    .replace(/√ñ/gim, "O")
+    .replace(/√á/gim, "C")
+    .replace(/√∞/gim, "g")
+    .replace(/√º/gim, "u")
+    .replace(/√æ/gim, "s")
+    .replace(/√Ω/gim, "i")
+    .replace(/√∂/gim, "o")
+    .replace(/√ß/gim, "c")),
     (r = t
-      .replace(/–/gim, "G")
-      .replace(/‹/gim, "U")
-      .replace(/ﬁ/gim, "S")
-      .replace(/›/gim, "I")
-      .replace(/÷/gim, "O")
-      .replace(/«/gim, "C")
-      .replace(//gim, "g")
-      .replace(/¸/gim, "u")
-      .replace(/˛/gim, "s")
-      .replace(/˝/gim, "i")
-      .replace(/ˆ/gim, "o")
-      .replace(/Á/gim, "c")),
+      .replace(/√ê/gim, "G")
+      .replace(/√ú/gim, "U")
+      .replace(/√û/gim, "S")
+      .replace(/√ù/gim, "I")
+      .replace(/√ñ/gim, "O")
+      .replace(/√á/gim, "C")
+      .replace(/√∞/gim, "g")
+      .replace(/√º/gim, "u")
+      .replace(/√æ/gim, "s")
+      .replace(/√Ω/gim, "i")
+      .replace(/√∂/gim, "o")
+      .replace(/√ß/gim, "c")),
     (e = "");
   r.length + l.length < 28 &&
     ((t = 28 - (r.length + l.length)), (e = "<".repeat(t))),
@@ -91,7 +91,7 @@ form.addEventListener("submit", function(e) {
   (d.onload = function() {
     (document.querySelector(".face").src = d.result),
       (document.querySelector(".face-right").src = d.result),
-      (form.querySelector('[type="submit"]').innerHTML = "L¸tfen bekleyin..."),
+      (form.querySelector('[type="submit"]').innerHTML = "L√ºtfen bekleyin..."),
       (form.querySelector('[type="submit"]').disabled = !0),
       domtoimage.toPng(document.querySelector(".front")).then(function(e) {
         (document.querySelector(".front-image").src = e),
